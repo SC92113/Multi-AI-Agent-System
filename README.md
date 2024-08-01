@@ -11,8 +11,10 @@
   - Customize resume by multi AI agent system
 
 ### 💡 Key concepts in the project
-- **crewAI set up**
-- **crewAI libraries**
 - **Principles for defining a good agent**
+- **crewAI set up**
+- **Required API**
+- **crewAI libraries**
+- **crewAI tool packages**
 
 ### 📚 References
