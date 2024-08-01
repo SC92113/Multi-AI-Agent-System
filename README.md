@@ -12,9 +12,15 @@
 
 ### 💡 Key concepts in the project
 - **Principles for defining a good agent**
+  - 
 - **crewAI set up**
+  - 
 - **Required API**
+  - 
 - **crewAI libraries**
+  - 
 - **crewAI tool packages**
+  - 
 
 ### 📚 References
+- 
