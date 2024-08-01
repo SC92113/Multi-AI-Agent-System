@@ -22,5 +22,4 @@
 - **crewAI tool packages**
   - c1
 
-### 📚 References
-- 
+### 📚 References 
