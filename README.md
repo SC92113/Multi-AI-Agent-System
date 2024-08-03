@@ -6,6 +6,7 @@
 - **Build a crew of AI agents to perform their own tasks in a whole product**
 - **Projects**
   - Compose a research writing by multi AI agent system
+  - Automate customer support process
   - Automate customer outreach campaign
   - Perform financial analysis by multi AI agent system
   - Customize resume by multi AI agent system
