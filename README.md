@@ -13,18 +13,17 @@
   - [Automate financial analysis](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Financial_Analysis_Agent.ipynb)
 
 ### 💡 Key concepts in the projects
-- **AI agentic process**
+- **General AI agentic flow**
   - Breakdown a task into smaller ones for multiple agents to execute
   - A crew of agents can optimize existing prompting by one central agent
   - `Task` from human > `Agent` with tools and processes > `Response` by LLMs
-  - 3 types of processes
-    - In parallel
-      - All agents execute their own tasks at the same time, tasks are not dependently executed
-    - In series/ sequential
-      - Each agent execute its own task one by one before passing to next agent
-    - In hierarchical
-      - Crew manager agent can delegate tasks to different agents to execute
-      - Remark: hierarchical + series/ parallel can happen at the same time
+  - Process 1 - In parallel
+    - All agents execute their own tasks at the same time, tasks are not dependently executed
+  - Process 2 - In series/ sequential
+    - Each agent execute its own task one by one before passing to next agent
+  - Process 3 - In hierarchical
+    - Crew manager agent can delegate tasks to different agents to execute
+    - Remark: hierarchical + series/ parallel can happen at the same time
 
 - **Principles for defining a good agent**
   - Role playing
@@ -33,14 +32,13 @@
     - Each agent focuses to execute its task only
   - Tool
     - Each agent has a set of specific tools
-    - 3 properties of tools
-      - Versatile
-        - Multi-function, can manage all types of inputs and respond with strong outputs
-      - Fault-tolerant
-        - Continue to execute and send error messages back to agent for correction
-      - Caching
-        - Store the same previous task requests, avoid hitting API rate limit, and save time to execute
-        - e.g. Cross caching layer
+    - Property 1 - Versatile
+      - Multi-function, can manage all types of inputs and respond with strong outputs
+    - Property 2 - Fault-tolerant
+      - Continue to execute and send error messages back to agent for correction
+    - Property 3 - Caching
+      - Store the same previous task requests, avoid hitting API rate limit, and save time to execute
+      - e.g. Cross caching layer
   - Collaboration
     - All agents can talk to each other to collaborate, delegate tasks, and execute the main task as a whole
   - Guardrail
@@ -57,10 +55,35 @@
       - Divided by categories, e.g. person name, org name, etc
 
 - **crewAI agentic process**
+  - Step 1: Defining tools 
+    - Agent level tools
+    - Task level tools
+  - Step 2: Defining agents
+    - Role
+    - Goal
+    - Agent level tools (if necessary)
+    - Backstory
+    - Delegation (if necessary)
+  - Step 3: Defining tasks
+    - Description
+    - Expected_output
+    - Task level tools (if necessary)
+    - Agent
+  - Step 4: Defining crew
+    - Agent list
+    - Task list
+    - Process type
+    - Memory (if necessary)
+  - Step 5: Run crew
+    - Define input
+    - Kickoff input
+  
 - **crewAI set up**
 - **Required APIs and LLMs**
 - **crewAI key libraries**
 - **crewAI tool packages**
+  - Defined tools
+  - Custom tools
 
 ### 📚 References 
 
