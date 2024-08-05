@@ -26,7 +26,7 @@
       - Crew manager agent can delegate tasks to different agents to execute
       - Remark: hierarchical + series/ parallel can happen at the same time
 
-- **Principles for defining a good agent**
+- **6 Principles for defining a good agent**
   - Role playing
     - Each agent has a specific title and context that focus on specific task
   - Focus
