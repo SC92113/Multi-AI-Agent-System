@@ -13,16 +13,15 @@
   - [Automate financial analysis](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Financial_Analysis_Agent.ipynb)
 
 ### 💡 Key concepts in the projects
+- **AI agentic process**
 - **Principles for defining a good agent**
-  - c1
+- **crewAI agentic process**
 - **crewAI set up**
-  - c1
-- **Required API**
-  - c1
-- **crewAI libraries**
-  - c1
+- **Required APIs and LLMs**
+- **crewAI key libraries**
 - **crewAI tool packages**
-  - c1
+
+
 
 ### 📚 References 
 
