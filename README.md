@@ -1,6 +1,11 @@
 # Multi-AI-Agent-Systems
 
+## Table of Contents
 - [Goal](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-goal)
+- [Key concepts in the projects](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-key-concepts-in-the-projects)
+  - [General AI agentic flow](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#general-ai-agentic-flow)
+- [References](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-references)
+- [Research papers](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-research-papers)
 
 ### 🛠️ This project is supported by [DeepLearning.AI](https://www.deeplearning.ai/) and [crewAI](https://www.crewai.com/).
 
