@@ -122,7 +122,7 @@
     - A tool that is defined with name and description by user
 
 ### 📚 References 
-- **Required LLMs and APIs**
+- **Key LLMs and APIs for running agentic process**
   
   - OpenAI: [OpenAI API](https://platform.openai.com/login?launch)
   - Llama: [Llama API](https://www.llama-api.com/)
