@@ -16,7 +16,7 @@
 - **General AI agentic flow**
   - Breakdown a task into smaller ones for multiple agents to execute
   - A crew of agents can optimize existing prompting by one central agent
-  - `Task` from human > `Agent` with tools and processes > `Response` by LLMs
+  - **Task** from human > **Agent** with tools and processes > **Response** by LLMs
 
 - **Principles for defining a good agent**
   - Role playing
@@ -100,11 +100,26 @@
       - Output can be different even the agentic process is run each time with the same input
 
 - **crewAI set up**
-- **crewAI key libraries**
+  - crewAI installation:[Installing crewAI](https://docs.crewai.com/getting-started/Installing-CrewAI/)
+  - Install crewAI
+    - `!pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29`
+  - Control warning
+    - `import warnings
+      warnings.filterwarnings('ignore')`
+  - Import crewAI libraries
+    - `from crewai import Agent, Task, Crew, Process`
+  - Import LLM for building agents, e.g. Openai, Llama
+    - `import os
+      from utils import get_openai_api_key
+      openai_api_key = get_openai_api_key()
+      os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'`
+
 - **crewAI tool packages**
   - crewAI tool package: [crewAI tool](https://docs.crewai.com/core-concepts/Tools/)
   - Defined tools
-  - Custom tools
+    - Tools provided by crewAI
+  - Custom tool
+    - A tool that is defined with name and description by user
 
 ### 📚 References 
 - **Required APIs and LLMs**
@@ -114,7 +129,6 @@
   - Ollama: [Ollama framework](https://ollama.com/)
   - Mistral AI: [Mistral AI API](https://docs.mistral.ai/api/)
   - Hugging Face: [Hugging Face models](https://huggingface.co/models)
-
     
 ### 🔎 Research papers
 - [Communicative_Agents_for_Software_Development.pdf](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Communicative_Agents_for_Software_Development.pdf)
