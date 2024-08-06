@@ -17,13 +17,6 @@
   - Breakdown a task into smaller ones for multiple agents to execute
   - A crew of agents can optimize existing prompting by one central agent
   - `Task` from human > `Agent` with tools and processes > `Response` by LLMs
-  - Process 1 - In parallel
-    - All agents execute their own tasks at the same time, tasks are not dependently executed
-  - Process 2 - In series/ sequential
-    - Each agent execute its own task one by one before passing to next agent
-  - Process 3 - In hierarchical
-    - Crew manager agent can delegate tasks to different agents to execute
-    - Remark: hierarchical + series/ parallel can happen at the same time
 
 - **Principles for defining a good agent**
   - Role playing
@@ -47,50 +40,80 @@
     - Ensure agents achieve their tasks
   - Memory
     - Type 1 - Short term memory
-      - Within crew execution
+      - During crew execution
     - Type 2 - Long term memory
       - After crew execution, for self-improvement and reuse 
     - Type 3 - Entity memory
-      - Within crew execution
+      - During crew execution
       - Divided by categories, e.g. person name, org name, etc
 
 - **crewAI agentic process**
   - Step 1: Defining tools 
     - Agent level tools
-    - Task level tools
+      - Agent-specific and can be used when an agent execute its tasks
+    - Task level tools 
+      - Task-specific and can only be used when that task is executed
   - Step 2: Defining agents
     - Role
+      - A role that the agent plays
     - Goal
+      - A goal that the agent should achieve
     - Agent level tools (depend on use cases)
+      - A set of tools that can help the agent to work
     - Backstory
+      - Detailed description of the background of agent and its role playing 
     - Delegation (depend on use cases)
+      - Decide if the agent can delegate tasks to other agents or not
   - Step 3: Defining tasks
     - Description
+      - A description of the task
     - Expected_output
+      - Expected output that the agent should achieve in task
     - Task level tools (depend on use cases)
+      - A set of tools that can help the task being executed
+      - Can be assigned to multiple agents
     - Agent
+      - Agent that is assigned with the task
   - Step 4: Defining crew
     - Agent list
+      - Order agents by list
+      - Ordering is not applicable if the process is in hierarchical
     - Task list
+      - Order tasks by list
+      - Ordering is not applicable if the process is in hierarchical
     - Process type
+      - Decide which process to run a crew of agents
+      - In parallel
+        - All agents execute their own tasks at the same time, tasks are not dependently executed
+      - In series/ sequential
+        - Each agent execute its own task one by one before passing to next agent
+      - In hierarchical
+        - Crew manager agent can delegate tasks to different agents to execute
+        - Remark: hierarchical + series/ parallel can happen at the same time
     - Memory (depend on use cases)
+      - Decide if storing the memory of the agentic process in terms of short term, long term, entity memory
   - Step 5: Run crew
     - Define input
-    - Kickoff input
-  
+      - Provide an input that meets the variables defined in the Agent and Task 
+    - Kickoff crew
+      - Run the crew with input
+      - Output can be different even the agentic process is run each time with the same input
+
 - **crewAI set up**
-- **Required APIs and LLMs**
 - **crewAI key libraries**
 - **crewAI tool packages**
+  - crewAI tool package: [crewAI tool](https://docs.crewai.com/core-concepts/Tools/)
   - Defined tools
   - Custom tools
 
 ### 📚 References 
-- OpenAI: [OpenAI API](https://platform.openai.com/login?launch)
-- Llama: [Llama API](https://www.llama-api.com/)
-- Ollama: [Ollama framework](https://ollama.com/)
-- Mistral AI: [Mistral AI API](https://docs.mistral.ai/api/)
-- Hugging Face: [Hugging Face models](https://huggingface.co/models)
+- **Required APIs and LLMs**
+  
+  - OpenAI: [OpenAI API](https://platform.openai.com/login?launch)
+  - Llama: [Llama API](https://www.llama-api.com/)
+  - Ollama: [Ollama framework](https://ollama.com/)
+  - Mistral AI: [Mistral AI API](https://docs.mistral.ai/api/)
+  - Hugging Face: [Hugging Face models](https://huggingface.co/models)
 
     
 ### 🔎 Research papers
