@@ -1,0 +1,121 @@
+﻿Goals
+* Complete a course 2024-06-01
+* Create a product manager portfolio 2024-06-22
+* Create 3 machine learning projects 2024-08-31 (TBD)
+   * 1st 2024-07-20
+   * 2nd 2024-07-27
+   * 3rd 2024-08-03
+   * 4th 2024-08-17
+Goal 1 - Complete a course
+* Complete Deep learning AI & Stanford - Machine Learning Specialization
+* Sync up the certificate
+   * Google drive
+   * Linkedin
+   * Resume
+Goal 2 - Create a product manager portfolio
+* Research portfolio formats
+   * PDF / Website / Github 
+* Outline portfolio contents
+   * No. of repositories: 1
+   * No. of items: 5
+   * Details of items
+
+
+Type
+	Item
+	Access
+	Category
+	Ampd work
+	1 - Enulator
+	Private
+	PM
+	Ampd work
+	2 - Enernet DG replacement
+	Private
+	PM
+	Ampd work
+	3 - User analytics
+	Private
+	PM & Data/ ML
+	Side project
+	4 - Case study
+	Public
+	PM
+	Side project
+	5 - PinkPulse
+	Public
+	PM
+	Side project
+	6 - ML project [1]
+	Public
+	Data/ ML
+	
+
+
+
+* Pick and save 1 - Enulator
+   * Folder
+   * PRD/ FD
+   * Tech spec.
+   * Product images, screen recording
+   * Delivery map
+   * Required data list
+* Pick and save 2 - Enernet DG replacement
+   * Folder
+   * PRD/ FD
+   * Implementation plan
+   * Product images, screen recording (dev environment)
+   * Required data list
+* Pick and save 3 - User analytics 
+   * Folder
+   * Dashboard
+   * Data sources
+   * Required data list
+* Pick and save 4 - Case study
+   * Folder
+   * Background
+   * Market info
+   * Objective
+   * Target user segment
+   * User need/ pain points
+   * User stories
+   * Proposed solution
+   * Launch plan/ GTM
+   * Success metrics
+   * Fine tune required data list: edit, research, add sources
+* Pick and save 5 - PinkPulse
+   * Folder
+   * Pitch deck
+   * UI mockup
+   * Prototype
+   * Promo video
+* Create Jupyter notebooks
+   * 1 - Enulator (1st,finish final folder)
+   * 2 - Enernet DG replacement (2nd,finish final folder)
+   * 3 - User analytics (3rd,finish final folder)
+   * 4 - Case study (4th,finish final folder)
+   * 5 - PinkPulse (5th,finish final folder)
+* Upload and commit notebooks to Github
+   * 1 - Enulator
+   * 2 - Enernet DG replacement
+   * 3 - User analytics
+   * 4 - Case study
+   * 5 - PinkPulse
+* Create private repository for datasets
+* Link Github to resume
+* Link Github to tech company job system (Bytedance, TikTok, Amazon, G42, Meta)
+Goal 3 - Create machine learning projects
+* Pick models and resources (from DeepLearning.ai)
+   * 1st: Function calling and data extraction
+   * 2nd: Carbon aware training
+   * 3rd: ChatGPT prompt engineering
+   * 4th: Multi AI agent systems
+* Create ML projects (i.e. repository, notebooks, project detail)
+   * 1st: Function calling and data extraction
+   * 2nd: Carbon aware training
+   * 3rd: ChatGPT prompt engineering
+   * 4th: Multi AI agent systems
+
+
+________________
+[1]This is included in Goal 3
