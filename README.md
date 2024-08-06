@@ -1,5 +1,7 @@
 # Multi-AI-Agent-Systems
 
+- [Goal](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-goal)
+
 ### 🛠️ This project is supported by [DeepLearning.AI](https://www.deeplearning.ai/) and [crewAI](https://www.crewai.com/).
 
 ## 🎯 Goal
