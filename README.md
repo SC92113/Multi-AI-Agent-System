@@ -2,9 +2,9 @@
 
 ### 🛠️ This project is supported by [DeepLearning.AI](https://www.deeplearning.ai/) and [crewAI](https://www.crewai.com/).
 
-### 🎯 Goal
-- **Build a crew of AI agents to execute their own tasks as a whole**
-- **Quick access to projects(.ipynb)**
+## 🎯 Goal
+- ### Build a crew of AI agents to execute their own tasks as a whole
+- ### Quick access to projects(.ipynb)
   - [Customize a research writing](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Research_Writing_Agent.ipynb)
   - [Customize resume](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Resume_Customization_Agent.ipynb)
   - [Customize an outreach campaign](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Customer_Outreach_System_Agent.ipynb)
@@ -12,13 +12,13 @@
   - [Automate event planning](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Event_Planning_Automation_Agent.ipynb)
   - [Automate financial analysis](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Financial_Analysis_Agent.ipynb)
 
-### 💡 Key concepts in the projects
-- **General AI agentic flow**
+## 💡 Key concepts in the projects
+- ### General AI agentic flow
   - Breakdown a task into smaller ones for multiple agents to execute
   - A crew of agents can optimize existing prompting by one central agent
   - Task from human > Agents with tools and processes > Response by LLMs
 
-- **Principles for defining a good agent**
+- ### Principles for defining a good agent
   - **Role playing**
     - Each agent has a specific title and context that focus on specific task
   - **Focus**
@@ -47,7 +47,7 @@
       - During crew execution
       - Divided by categories, e.g. person name, org name, etc
 
-- **crewAI agentic process**
+- ### crewAI agentic process
   - **Step 1: Defining tools**
     - Agent level tools
       - Agent-specific and can be used when an agent execute its tasks
@@ -99,7 +99,7 @@
       - Run the crew with input
       - Output can be different even the agentic process is run each time with the same input
 
-- **crewAI set up**
+- ### crewAI set up
   - crewAI installation: [Installing crewAI](https://docs.crewai.com/getting-started/Installing-CrewAI/)
   - Install crewAI
     - `!pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29`
@@ -114,15 +114,15 @@
       openai_api_key = get_openai_api_key()
       os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'`
 
-- **crewAI tool packages**
+- ### crewAI tool packages
   - crewAI tool package: [crewAI tool](https://docs.crewai.com/core-concepts/Tools/)
   - Defined tools
     - Tools provided by crewAI
   - Custom tool
     - A tool that is defined with name and description by user
 
-### 📚 References 
-- **Key LLMs and APIs for running agentic process**
+## 📚 References 
+- ### Key LLMs and APIs for running agentic process
   
   - OpenAI: [OpenAI API](https://platform.openai.com/login?launch)
   - Llama: [Llama API](https://www.llama-api.com/)
@@ -131,5 +131,5 @@
   - Hugging Face: [Hugging Face models](https://huggingface.co/models)
   - Serper: [Google Search API](https://serper.dev/?gad_source=1&gclid=Cj0KCQjw8MG1BhCoARIsAHxSiQnrNkCFKl50asaTMGGs7v7_CqZO11xifflridfnUkHYfErJ2nBh7DIaAnDJEALw_wcB)
     
-### 🔎 Research papers
+## 🔎 Research papers
 - [Communicative_Agents_for_Software_Development.pdf](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Communicative_Agents_for_Software_Development.pdf)
