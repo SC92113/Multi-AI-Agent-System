@@ -4,7 +4,7 @@
 
 ### 🎯 Goal
 - **Build a crew of AI agents to execute their own tasks as a whole**
-- **Projects**
+- **Quick access to projects(.ipynb)**
   - [Customize a research writing](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Research_Writing_Agent.ipynb)
   - [Customize resume](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Resume_Customization_Agent.ipynb)
   - [Customize an outreach campaign](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Customer_Outreach_System_Agent.ipynb)
@@ -46,11 +46,11 @@
     - Prevent AI hallucination
     - Ensure agents achieve their tasks
   - Memory
-    - Short term memory
+    - Type 1 - Short term memory
       - Within crew execution
-    - Long term memory
+    - Type 2 - Long term memory
       - After crew execution, for self-improvement and reuse 
-    - Entity memory
+    - Type 3 - Entity memory
       - Within crew execution
       - Divided by categories, e.g. person name, org name, etc
 
@@ -61,19 +61,19 @@
   - Step 2: Defining agents
     - Role
     - Goal
-    - Agent level tools (if necessary)
+    - Agent level tools (depend on use cases)
     - Backstory
-    - Delegation (if necessary)
+    - Delegation (depend on use cases)
   - Step 3: Defining tasks
     - Description
     - Expected_output
-    - Task level tools (if necessary)
+    - Task level tools (depend on use cases)
     - Agent
   - Step 4: Defining crew
     - Agent list
     - Task list
     - Process type
-    - Memory (if necessary)
+    - Memory (depend on use cases)
   - Step 5: Run crew
     - Define input
     - Kickoff input
@@ -86,6 +86,12 @@
   - Custom tools
 
 ### 📚 References 
+- OpenAI: [OpenAI API](https://platform.openai.com/login?launch)
+- Llama: [Llama API](https://www.llama-api.com/)
+- Ollama: [Ollama framework](https://ollama.com/)
+- Mistral AI: [Mistral AI API](https://docs.mistral.ai/api/)
+- Hugging Face: [Hugging Face models](https://huggingface.co/models)
 
+    
 ### 🔎 Research papers
 - [Communicative_Agents_for_Software_Development.pdf](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Communicative_Agents_for_Software_Development.pdf)
