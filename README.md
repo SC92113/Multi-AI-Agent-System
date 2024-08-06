@@ -16,14 +16,14 @@
 - **General AI agentic flow**
   - Breakdown a task into smaller ones for multiple agents to execute
   - A crew of agents can optimize existing prompting by one central agent
-  - **Task** from human > **Agent** with tools and processes > **Response** by LLMs
+  - Task from human > Agents with tools and processes > Response by LLMs
 
 - **Principles for defining a good agent**
-  - Role playing
+  - **Role playing**
     - Each agent has a specific title and context that focus on specific task
-  - Focus
+  - **Focus**
     - Each agent focuses to execute its task only
-  - Tool
+  - **Tool**
     - Each agent has a set of specific tools
     - Property 1 - Versatile
       - Multi-function, can manage all types of inputs and respond with strong outputs
@@ -32,13 +32,13 @@
     - Property 3 - Caching
       - Store the same previous task requests, avoid hitting API rate limit, and save time to execute
       - e.g. Cross caching layer
-  - Collaboration
+  - **Collaboration**
     - All agents can talk to each other to collaborate, delegate tasks, and execute the main task as a whole
-  - Guardrail
+  - **Guardrail**
     - Default in crewAI framework
     - Prevent AI hallucination
     - Ensure agents achieve their tasks
-  - Memory
+  - **Memory**
     - Type 1 - Short term memory
       - During crew execution
     - Type 2 - Long term memory
@@ -48,12 +48,12 @@
       - Divided by categories, e.g. person name, org name, etc
 
 - **crewAI agentic process**
-  - Step 1: Defining tools 
+  - **Step 1: Defining tools**
     - Agent level tools
       - Agent-specific and can be used when an agent execute its tasks
     - Task level tools 
       - Task-specific and can only be used when that task is executed
-  - Step 2: Defining agents
+  - **Step 2: Defining agents**
     - Role
       - A role that the agent plays
     - Goal
@@ -64,7 +64,7 @@
       - Detailed description of the background of agent and its role playing 
     - Delegation (depend on use cases)
       - Decide if the agent can delegate tasks to other agents or not
-  - Step 3: Defining tasks
+  - **Step 3: Defining tasks**
     - Description
       - A description of the task
     - Expected_output
@@ -74,7 +74,7 @@
       - Can be assigned to multiple agents
     - Agent
       - Agent that is assigned with the task
-  - Step 4: Defining crew
+  - **Step 4: Defining crew**
     - Agent list
       - Order agents by list
       - Ordering is not applicable if the process is in hierarchical
@@ -92,7 +92,7 @@
         - Remark: hierarchical + series/ parallel can happen at the same time
     - Memory (depend on use cases)
       - Decide if storing the memory of the agentic process in terms of short term, long term, entity memory
-  - Step 5: Run crew
+  - **Step 5: Run crew**
     - Define input
       - Provide an input that meets the variables defined in the Agent and Task 
     - Kickoff crew
