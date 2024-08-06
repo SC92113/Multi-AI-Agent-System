@@ -100,7 +100,7 @@
       - Output can be different even the agentic process is run each time with the same input
 
 - **crewAI set up**
-  - crewAI installation:[Installing crewAI](https://docs.crewai.com/getting-started/Installing-CrewAI/)
+  - crewAI installation: [Installing crewAI](https://docs.crewai.com/getting-started/Installing-CrewAI/)
   - Install crewAI
     - `!pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29`
   - Control warning
