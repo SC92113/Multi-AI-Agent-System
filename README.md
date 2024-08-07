@@ -6,6 +6,10 @@
 - [Goal](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-goal)
 - [Key concepts in the projects](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-key-concepts-in-the-projects)
   - [General AI agentic flow](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#general-ai-agentic-flow)
+  - [Principles for defining a good agent](https://github.com/SC92113/Multi-AI-Agent-System?tab=readme-ov-file#principles-for-defining-a-good-agent)
+  - [crewAI agentic process](https://github.com/SC92113/Multi-AI-Agent-System?tab=readme-ov-file#crewai-agentic-process)
+  - [crewAI set up](https://github.com/SC92113/Multi-AI-Agent-System?tab=readme-ov-file#crewai-set-up)
+  - [crewAI tool packages](https://github.com/SC92113/Multi-AI-Agent-System?tab=readme-ov-file#crewai-tool-packages)
 - [References](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-references)
 - [Research papers](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-research-papers)
 
