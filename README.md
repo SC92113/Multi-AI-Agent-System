@@ -14,7 +14,7 @@
 - [Research papers](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-research-papers)
 
 ## 🎯 Goal
-- ### Build a crew of AI agents to execute their own tasks as a whole
+- ### Build a crew of AI agents to execute their own specific tasks as a whole
 - ### Quick access to projects (jupyter notebook)
   - ### [Customize a research writing](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Research_Writing_Agent.ipynb)
   - ### [Customize resume](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Resume_Customization_Agent.ipynb)
