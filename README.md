@@ -142,7 +142,7 @@
   - Hugging Face: [Hugging Face models](https://huggingface.co/models)
   - Serper: [Google Search API](https://serper.dev/?gad_source=1&gclid=Cj0KCQjw8MG1BhCoARIsAHxSiQnrNkCFKl50asaTMGGs7v7_CqZO11xifflridfnUkHYfErJ2nBh7DIaAnDJEALw_wcB)
 
-- ### Remark: Some regions are restricted in using particular models. Please check the model availability in related providers.
+  Remark: Some regions are restricted in using particular models. Please check the model availability in related providers.
     
 ## 🔎 Research papers
 - [Communicative_Agents_for_Software_Development.pdf](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Communicative_Agents_for_Software_Development.pdf)
