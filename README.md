@@ -133,7 +133,7 @@
     - A tool that is defined with name and description by user
 
 ## 📚 References 
-- ### Key LLMs and APIs for running agentic process
+- ### Key LLMs and APIs for running agentic process and other tasks
   
   - OpenAI: [OpenAI API](https://platform.openai.com/login?launch)
   - Llama: [Llama API](https://www.llama-api.com/)
