@@ -139,6 +139,7 @@
   - Llama: [Llama API](https://www.llama-api.com/)
   - Ollama: [Ollama framework](https://ollama.com/)
   - Mistral AI: [Mistral AI API](https://docs.mistral.ai/api/)
+  - Cohere: [Cohere API]([https://cohere.com/](https://cohere.com/))
   - Hugging Face: [Hugging Face models](https://huggingface.co/models)
   - Serper: [Google Search API](https://serper.dev/?gad_source=1&gclid=Cj0KCQjw8MG1BhCoARIsAHxSiQnrNkCFKl50asaTMGGs7v7_CqZO11xifflridfnUkHYfErJ2nBh7DIaAnDJEALw_wcB)
 
