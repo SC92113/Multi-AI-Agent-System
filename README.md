@@ -1,7 +1,5 @@
 # Multi-AI-Agent-Systems
 
-### 🛠️ This project is supported by [DeepLearning.AI](https://www.deeplearning.ai/) and [crewAI](https://www.crewai.com/).
-
 ## ☰ Table of Contents
 - [Goal](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-goal)
 - [Key concepts in the projects](https://github.com/SC92113/Multi-AI-Agent-System/tree/main?tab=readme-ov-file#-key-concepts-in-the-projects)
@@ -147,3 +145,5 @@
     
 ## 🔎 Research papers
 - [Communicative_Agents_for_Software_Development.pdf](https://github.com/SC92113/Multi-AI-Agent-Systems/blob/93bfe0a33996f1716fea4d6f8eed97e56885b572/Communicative_Agents_for_Software_Development.pdf)
+
+### 🛠️ This project is supported by [DeepLearning.AI](https://www.deeplearning.ai/) and [crewAI](https://www.crewai.com/).
